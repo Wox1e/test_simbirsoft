@@ -29,7 +29,7 @@ git clone https://github.com/Wox1e/test_simbirsoft
 2) Запуск автотестов 
 ```
    cd test_simbirsoft
-   python /src/main.py
+   python src/main.py
 ```
 **Примечание**
 Если вам необходимо использовать драйвер, отличный от ChromeWebDriver, загрузите его в папку drivers
