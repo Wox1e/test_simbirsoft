@@ -34,7 +34,8 @@ git clone https://github.com/Wox1e/test_simbirsoft
    python main.py
 ```
 **Примечания**
-*Если вам необходимо использовать драйвер, отличный от ChromeWebDriver, загрузите его в папку drivers
+
+* Если вам необходимо использовать драйвер, отличный от ChromeWebDriver, загрузите его в папку drivers
 и укажите путь к нему в init.py:
 
 ```
