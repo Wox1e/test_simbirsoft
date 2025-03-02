@@ -33,8 +33,8 @@ git clone https://github.com/Wox1e/test_simbirsoft
    cd src
    python main.py
 ```
-**Примечание**
-Если вам необходимо использовать драйвер, отличный от ChromeWebDriver, загрузите его в папку drivers
+**Примечания**
+*Если вам необходимо использовать драйвер, отличный от ChromeWebDriver, загрузите его в папку drivers
 и укажите путь к нему в init.py:
 
 ```
@@ -43,6 +43,8 @@ git clone https://github.com/Wox1e/test_simbirsoft
 service = Service(executable_path="../drivers/*имя файла*")
 driver = webdriver.*Драйвер*(service = service)
 ```
-* Драйвер должен поддерживаться Selenium! 
+Драйвер должен поддерживаться Selenium! 
+
+* Ради одного тест-кейса добавлять pytest не имеет смысла, однако при расширении покрытия тестов, его будет легко добавить
 
 <br /><br />
