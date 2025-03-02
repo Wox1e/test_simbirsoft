@@ -31,7 +31,7 @@ git clone https://github.com/Wox1e/test_simbirsoft
    cd test_simbirsoft
    pip install -r requirements.txt
    cd src
-   python /src/main.py
+   python main.py
 ```
 **Примечание**
 Если вам необходимо использовать драйвер, отличный от ChromeWebDriver, загрузите его в папку drivers
