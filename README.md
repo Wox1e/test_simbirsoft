@@ -29,6 +29,8 @@ git clone https://github.com/Wox1e/test_simbirsoft
 2) Запуск автотестов 
 ```
    cd test_simbirsoft
+   pip install -r requirements.txt
+   cd src
    python /src/main.py
 ```
 **Примечание**
